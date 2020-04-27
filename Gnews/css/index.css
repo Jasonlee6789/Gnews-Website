@@ -18,7 +18,7 @@
   width: 600%;
   position: absolute;
   top: 0;
-  left: 0;
+  /* left: 0; */
   padding: 0;
 }
 .focus ul li {
@@ -27,6 +27,7 @@
 
 .arrow-l,
 .arrow-r {
+/* 比默认的高一个层级的就行 */
   z-index: 2;
   display: block;
   position: absolute;
