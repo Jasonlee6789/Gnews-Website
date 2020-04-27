@@ -1,0 +1,102 @@
+.main {
+  width: 980px;
+  height: 455px;
+  /* background-color: pink; */
+  /* margin-left: 235px; */
+  margin-top: 10px;
+}
+
+.focus {
+  position: relative;
+  width: 720px;
+  height: 455px;
+  background-color: purple;
+  /* opacity: 1; */
+  overflow: hidden;
+}
+.focus ul {
+  width: 600%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+}
+.focus ul li {
+  float: left;
+}
+
+.arrow-l,
+.arrow-r {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 0;
+  margin-top: -20px;
+  width: 24px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  color: #fff;
+}
+
+.arrow-l {
+  left: 0;
+}
+.arrow-r {
+  right: 0;
+}
+
+.circle {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+.circle li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin: 0 6px;
+  border-radius: 50%;
+  /* 鼠标经过显示小手 */
+  cursor: pointer;
+}
+.current {
+  background-color: #fff;
+  box-shadow: 0;
+}
+
+.newsflash {
+  width: 250px;
+  height: 455px;
+  /* background-color: skyblue; */
+}
+
+.news {
+  height: 455px;
+  border: 1px solid #ccc;
+  /* background-color: pink; */
+}
+.news-hd {
+  height: 32px;
+  border-bottom: 1px dotted #ccc;
+  font-size: 20px;
+  line-height: 32px;
+  padding-left: 25px;
+}
+
+.news-hd a {
+  float: right;
+  padding-right: 10px;
+}
+
+.news-bd {
+  padding: 10px 0 0 5px;
+}
+
+.news-bd li {
+  height: 27px;
+}

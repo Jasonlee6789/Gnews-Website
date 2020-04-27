@@ -1,0 +1,172 @@
+/*公共样式*/
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/*版心*/
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 顶部快捷导航 */
+.shortcut {
+  height: 61px;
+  background-color: #f1f1f1;
+  line-height: 31px;
+}
+
+.shortcut li {
+  float: left;
+}
+
+li {
+  list-style: none;
+}
+.style-red {
+  color: red;
+}
+/* 右上角分割线 */
+.spacer {
+  width: 1px;
+  height: 12px;
+  background-color: #666;
+  margin: 9px 12px 0;
+  /* 上 左 右 下 */
+}
+.header {
+  position: relative;
+  height: 135px;
+  /* background-color: pink; */
+}
+.logo {
+  width: 273px;
+  height: 110px;
+}
+.logo a {
+  display: block;
+  width: 392px;
+  height: 136px;
+  background: url(../img/logo1.png);
+}
+.search {
+  position: absolute;
+  top: 25px;
+  left: 450px;
+}
+.text {
+  float: left;
+  width: 400px;
+  height: 32px;
+  border: 2px solid #b1191a;
+  color: #ccc;
+  padding-left: 10px;
+}
+.btn {
+  float: left;
+  width: 82px;
+  height: 36px;
+  background-color: #b1191a;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.hotwords {
+  position: absolute;
+  top: 65px;
+  left: 450px;
+}
+.hotwords a {
+  margin: 0 6px;
+}
+
+.order {
+  position: absolute;
+  top: 25px;
+  right: 64px;
+  width: 138px;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #dfdfdf;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 14px;
+  padding: 0 3px;
+  line-height: 14px;
+  background-color: #e60012;
+}
+
+/* nav start  */
+.nav {
+  height: 45px;
+  border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+  width: 235px;
+  height: 45px;
+  background-color: pink;
+}
+.dropdown .dt {
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  text-align: center;
+  /* background-color: #fff; */
+}
+
+.navitems li {
+  float: left;
+}
+
+.navitems li a {
+  display: block;
+  height: 45px;
+  padding: 0 25px;
+  line-height: 45px;
+}
+
+.footer {
+  height: 286px;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+}
+
+.mod_service {
+  height: 79px;
+  /* background-color: pink; */
+}
+
+.mod_service li {
+  float: left;
+  width: 200px;
+  height: 79px;
+}
+.mod_help {
+  height: 150px;
+  background-color: #fff;
+}
+.mod_help_item {
+  float: left;
+  width: 300px;
+  padding: 20px 0 0 50px;
+}
+
+.mod_help_item dt {
+  height: 25px;
+  font-size: 20px;
+}
+
+.mod_help_item dd {
+  height: 22px;
+}
